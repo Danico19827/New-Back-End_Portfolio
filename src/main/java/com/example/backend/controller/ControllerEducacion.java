@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
-@CrossOrigin(origins = "http://localhost:4200 , https://host-portfolio-cb3d2.web.app")
+@CrossOrigin(origins = "https://host-portfolio-cb3d2.web.app")
 @RequestMapping("educacion")
 public class ControllerEducacion {
     
